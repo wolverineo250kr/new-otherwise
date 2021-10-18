@@ -1,0 +1,41 @@
+html > body > .footer .footer-top ul li{
+    display: block;
+    cursor: pointer;
+}
+
+html > body > .footer .footer-top ul li.parent-category {
+    list-style: none;
+}
+
+html > body > .footer .footer-top ul li a {
+    color: #333;
+}
+
+html > body > .footer .footer-top ul li a:hover {
+    color: #57b30c;
+}
+
+html > body > .footer .footer-top li.parent-category::before {
+    content: '\25ba';
+    padding-right: 10px;
+    color: #333;
+    font-size: 9px;
+}
+
+html > body > .footer .footer-top ul.sub-categories{
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+html > body > .footer .footer-top ul.sub-categories li{
+    list-style: none;
+}
+
+html > body > .footer .footer-top ul.sub-categories li::before {
+    content: '\26AA';
+    padding-right: 10px;
+    color: #333;
+    font-size: 9px;
+}
