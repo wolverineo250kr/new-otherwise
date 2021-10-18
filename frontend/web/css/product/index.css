@@ -1,0 +1,12 @@
+html > body >.wrap #add-to-cart{
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+}
+ 
+html > body >.wrap #add-to-cart:hover {
+    background-color: #EF5F21;
+}
